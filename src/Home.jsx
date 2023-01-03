@@ -1,6 +1,7 @@
 import React from 'react';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import CodeFilterStock from './stock/codeFilterStock';
+import Test from './react/UseRefComp2'
 import './Home.css'
 const { Header, Content, Footer } = Layout;
 
@@ -37,6 +38,7 @@ const Home = () => {
 					<CodeFilterStock />
 				}
 				</div>
+				<Test />
 			</Content>
 			<Footer style={{ textAlign: 'center', width: '100%', background: '#001529', color: 'white' }}>© Copyright 2022 _stockFlight. All rights reserved.</Footer>
 		</Layout>
